@@ -1,0 +1,14 @@
+
+
+    Defer:  In golang,the defer keyword is used to delay the execution of a function (or)statement until the nearby
+   function returns.In simple words,defer will move the execution of the statement to the very end inside a
+   function.
+
+   Panic :  The panic() function in golang is similar to exceptions raised at runtime when an error is encountered.
+   Panic() is either raised by the program itself when an unexpected error occurs or the programmer throws the 
+   exception on purpose for handling particular errors.
+
+  Recover : The recover() function only works when called in a deferred function.This is because when a panic 
+  occurs,deferred functions do not exit or crash as a normal function would.
+
+
